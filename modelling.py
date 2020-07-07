@@ -29,9 +29,7 @@ for i in data:
 
 print(actual)
 
-plt.plot(actual)
-plt.plot(expect)
-# plt.plot(date,quantile)
+plt.plot(actual), plt.plot(expect), plt.plot(quantile)
 plt.xlabel("date")
 plt.ylabel("actual")
 plt.title("ML Model Analysis")
